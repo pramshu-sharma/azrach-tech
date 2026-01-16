@@ -29,7 +29,7 @@
 ## Main Files Overview
 
 ### app/
-   **main.py** - Main entry point for the application.
+&nbsp;&nbsp;&nbsp;**main.py** - Main entry point for the application.
 
 ### core/
    **config.py** – Holds application configuration, environment variables.
@@ -64,6 +64,7 @@
    1. Docker
    2. Pagination
    3. Unit Tests
+
 
 
 
