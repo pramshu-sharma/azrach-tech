@@ -32,28 +32,28 @@
 &nbsp;&nbsp;&nbsp;**main.py** - Main entry point for the application.
 
 ### core/
-   **config.py** – Holds application configuration, environment variables.
-   **database.py** – Sets up the database connection using SQLAlchemy.
-   **exceptions.py** – Defines custom exceptions.
-   **logger.py** – Configures logging for the app.
+&nbsp;&nbsp;&nbsp;**config.py** – Holds application configuration, environment variables.<br>
+&nbsp;&nbsp;&nbsp;**database.py** – Sets up the database connection using SQLAlchemy.<br>
+&nbsp;&nbsp;&nbsp;**exceptions.py** – Defines custom exceptions.<br>
+&nbsp;&nbsp;&nbsp;**logger.py** – Configures logging for the app.<br>
 
 ### api_models/
-   **patient_api_models.py** - Request/Response models for Flask-RESTX.
+&nbsp;&nbsp;&nbsp;**patient_api_models.py** - Request/Response models for Flask-RESTX.
    
 ### models/
-   **patient.py** - SQLAlchemy models for patients.
+&nbsp;&nbsp;&nbsp;**patient.py** - SQLAlchemy models for patients.
 
 ### routing/
-   **patients.py** - Flask-RESTX end points.
+&nbsp;&nbsp;&nbsp;**patients.py** - Flask-RESTX end points.
 
 ### services/
-   **patient_service.py** - Business Logic and Database operations.
+&nbsp;&nbsp;&nbsp;**patient_service.py** - Business Logic and Database operations.
 
 ### utils/
-   **patient_utils.py** - Helper functions for services / routing.
+&nbsp;&nbsp;&nbsp;**patient_utils.py** - Helper functions for services / routing.
 
 ### validators/
-   **patient_validators.py** - Validation functions for incoming request data.
+&nbsp;&nbsp;&nbsp;**patient_validators.py** - Validation functions for incoming request data.
 
 ## Additional Features Implemented:
    1. Logging
@@ -64,6 +64,7 @@
    1. Docker
    2. Pagination
    3. Unit Tests
+
 
 
 
