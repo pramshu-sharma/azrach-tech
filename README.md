@@ -14,7 +14,7 @@
       - LOG_LEVEL: Logging level.
       - LOG_FILE: Path for the log file.
    
-        *The log file will be genrated automatically when the first log instance is created.*
+        *NOTE: The log file will be genrated automatically when the first log instance is created.*
         
    4. Run database migrations.
       
@@ -50,7 +50,7 @@
    **patient_service.py** - Business Logic and Database operations.
 
 ### utils/
-   **patient_utils** - Helper functions for services / routing.
+   **patient_utils.py** - Helper functions for services / routing.
 
 ### validators/
    **patient_validators.py** - Validation functions for incoming request data.
@@ -64,6 +64,7 @@
    1. Docker
    2. Pagination
    3. Unit Tests
+
 
 
 
