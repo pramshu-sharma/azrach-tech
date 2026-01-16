@@ -25,39 +25,6 @@
        `python app/main.py`
       
    6. Swagger docs can accessed via the root URL: ('/').
-
-## Project Structure Overview
-
-root/
-├── app/
-│   ├── api_models/
-│   │   └── patient_api_models.py
-│   ├── core/
-│   │   ├── config.py
-│   │   ├── database.py
-│   │   ├── exceptions.py
-│   │   └── logger.py
-│   ├── models/
-│   │   └── patient.py
-│   ├── routing/
-│   │   └── patients.py
-│   ├── services/
-│   │   └── patient_service.py
-│   ├── utils/
-│   │   └── patient_utils.py
-│   ├── validators/
-│   │   └── patient_validators.py
-│   ├── main.py
-│   └── app.log
-├── migrations/
-│   ├── versions/
-│   ├── env.py
-│   ├── README
-│   └── script.py.mako
-├── alembic.ini
-├── poetry.lock
-├── pyproject.toml
-└── README.md
    
 ## Main Files Overview
 
@@ -97,6 +64,7 @@ root/
    1. Docker
    2. Pagination
    3. Unit Tests
+
 
 
 
